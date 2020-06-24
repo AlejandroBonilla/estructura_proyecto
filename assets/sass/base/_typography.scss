@@ -1,0 +1,28 @@
+// Typography
+
+//font family
+$playfair: 'Playfair Display', serif;
+$open-sans: 'Open Sans', sans-serif;
+
+// font weight
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+//font Sizes
+$xxxx-large: 130px;
+$xxx-large: 100px;
+$xx-large: 30px;
+$x-large: 20px;
+$large: 18px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+/* Base Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $open-sans;
+  font-weight: $regular;
+  //font-size: $medium;
+}
